@@ -4,12 +4,14 @@
 Music streaming platforms have reshaped the modern music industry, creating an environment where millions of tracks compete for attention but only a small subset become widely popular. This project examines whether Spotify track popularity can be predicted using musical attributes, track metadata, and artist context at the track level.
 
 ## Project Structure
-├── 01_data_wrangling.ipynb  
-├── 02_exploratory_data_analysis.ipynb  
-├── 03_modeling_and_preprocessing.ipynb (in progress)  
-├── README.md  
-├── requirements.txt
-
+```
+|- notebooks/
+  |- 01_data_wrangling.ipynb  
+  |- 02_exploratory_data_analysis.ipynb  
+  |- 03_modeling_and_preprocessing.ipynb  
+|- README.md  
+|- requirements.txt
+```
 ## Notebooks
 
 **01_data_wrangling.ipynb**  
@@ -24,8 +26,8 @@ Performs model-specific preprocessing and builds predictive models to estimate S
 ## Project Status
 - Data wrangling: complete  
 - Exploratory data analysis: complete  
-- Modeling and preprocessing: in progress  
-- Documentation and presentation: planned
+- Modeling and preprocessing: complete  
+- Documentation and presentation: in progress
 
 ## Data
 The data used in this project was sourced from public Spotify track and artist datasets available on Kaggle. Raw data files are not included in this repository due to size and licensing constraints. The notebooks assume access to local copies of these datasets.
