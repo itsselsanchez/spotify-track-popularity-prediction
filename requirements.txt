@@ -1,0 +1,28 @@
+# Data
+pandas
+numpy
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+shap
+statsmodels
+
+# Deep Learning
+torch
+pytorch-lightning
+pytorch-tabular
+pytorch-tabnet
+optuna
+
+# Experiment Tracking
+mlflow
+joblib
+
+# Environment
+jupyterlab
