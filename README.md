@@ -20,7 +20,7 @@ Cleans and restructures raw Spotify track and artist data, producing an enriched
 **02_exploratory_data_analysis.ipynb**  
 Explores distributions, relationships, and statistical differences to understand which features are associated with track popularity.
 
-**03_modeling_and_preprocessing.ipynb (in progress)**  
+**03_modeling_and_preprocessing.ipynb (complete)**  
 Performs model-specific preprocessing and builds predictive models to estimate Spotify track popularity.
 
 ## Project Status
