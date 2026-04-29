@@ -26,6 +26,3 @@ joblib
 
 # Environment
 jupyterlab
-
-# App
-streamlit
