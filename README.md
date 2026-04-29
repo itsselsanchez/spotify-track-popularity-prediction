@@ -45,7 +45,6 @@ The final XGBoost model achieved a **PR-AUC of 0.812**, well above the **0.205 r
   |- robot.png
   |- human.png
   |- game_hit_or_miss_header.png
-  |- requirements.txt
 |- README.md
 |- requirements.txt
 ```
