@@ -30,14 +30,23 @@ The final XGBoost model achieved a **PR-AUC of 0.812**, well above the **0.205 r
 ## 🗂️ Project Structure
 ```
 |- notebooks/
-  |- 01_data_wrangling.ipynb  
-  |- 02_exploratory_data_analysis.ipynb  
+  |- 01_data_wrangling.ipynb
+  |- 02_exploratory_data_analysis.ipynb
   |- 03_modeling_and_preprocessing.ipynb
 |- assets/
   |- spotify_popularity_analysis_static.pdf
   |- spotify_hit_prediction_report.pdf
-  |- xgb_v2_model_metrics.pdf  
-|- README.md  
+  |- xgb_v2_model_metrics.pdf
+|- game/
+  |- .streamlit/
+    |- config.toml
+  |- app.py
+  |- spotify_game_dataset.csv
+  |- robot.png
+  |- human.png
+  |- game_hit_or_miss_header.png
+  |- requirements.txt
+|- README.md
 |- requirements.txt
 ```
 ## 📓 Notebooks
