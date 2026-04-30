@@ -8,10 +8,10 @@ This project asks a simple question:
 **Can we predict a hit using only what we know about a track and who made it?**
 
 ## 🔑 Key Findings
-**Short answer:** Yes.
-The final XGBoost model achieved a **PR-AUC of 0.812**, well above the **0.205 random baseline**.
+**Short answer:** Yes.  
+The final model achieved a **PR-AUC of 0.812**, well above the **0.205 random baseline**.
 
-**Long answer**: Yes, but not in the way you might expect.
+**Long answer:** Yes, but not in the way you might expect.  
 
 - 🎯 **It doesn’t learn what makes a song sound good.**  
   It learns **when** the song was released and **who** made it.
@@ -27,6 +27,15 @@ The final XGBoost model achieved a **PR-AUC of 0.812**, well above the **0.205 r
 💡 **Takeaway**:  
 **The sound matters, but the story behind a song matters more.**
 
+## 🔍 Ways to Explore
+### 🎮 Play the Game
+[Hit or Miss? · *Game Edition*](https://hit-or-miss.streamlit.app)  
+Test your instincts against this project’s best model in a quick, 5-song challenge by predicting whether each song is a hit or a miss.
+
+### 📊 View the Presentation
+[Hit or Miss? · *Presentation Edition*](https://canva.link/hit-or-miss-presentation)  
+Take a closer look at how the best model came to be and what drove its predictions.
+
 ## 🗂️ Project Structure
 ```
 |- notebooks/
@@ -40,11 +49,13 @@ The final XGBoost model achieved a **PR-AUC of 0.812**, well above the **0.205 r
 |- game/
   |- .streamlit/
     |- config.toml
+  |- .python-version
   |- app.py
   |- spotify_game_dataset.csv
   |- robot.png
   |- human.png
   |- game_hit_or_miss_header.png
+  |- requirements.txt
 |- README.md
 |- requirements.txt
 ```
@@ -61,7 +72,7 @@ Performs model-specific preprocessing and trains six classification models: Dumm
 
 ## 📁 Assets
 **spotify_popularity_analysis_static.pdf**  
-Visual presentation of key findings and model results
+Key findings, model results, and visuals *(PDF version of the [Hit or Miss? Presentation](https://canva.link/hit-or-miss-presentation))*  
 
 **spotify_hit_prediction_report.pdf**  
 Full technical report covering data preparation, modeling, and evaluation
@@ -73,4 +84,5 @@ Detailed performance metrics for the final XGBoost model
 The data used in this project was sourced from the [Spotify Dataset (1921–2021, 600k+ tracks)](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks) on Kaggle, containing both track-level and artist-level data. Raw data files are not included in this repository due to size and licensing constraints. The notebooks assume access to local copies of these datasets.
 
 ## 🧰 Tools
-Python, pandas, numpy, scikit-learn, XGBoost, PyTorch, TabNet, Optuna, MLflow, SHAP, seaborn, matplotlib, scipy, joblib
+**Modeling & Analysis:** Python, pandas, numpy, scikit-learn, XGBoost, PyTorch, TabNet, Optuna, MLflow, SHAP, seaborn, matplotlib, scipy, joblib  
+**Application:** Streamlit
